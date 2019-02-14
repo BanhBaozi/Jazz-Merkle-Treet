@@ -1,0 +1,31 @@
+importjava.util.Scanner;
+
+import java.util.ArrayList;
+
+public class MerkleManager {
+
+        public static volatile String sUsersEnteredWord;
+        public static volatile ArrayList<String> lstWords;
+        private int iMerkleTreeInputs = 4;
+
+        public void run(){
+
+            Utils oUtil = new Util();
+            ArrayList<String> lstWords = new ArrayList<>();
+
+            while(true){
+
+                Util.sleepRandomTime();
+
+
+
+
+            }
+        }
+
+
+
+
+
+}
+
