@@ -1,0 +1,9 @@
+public class populateMerkleNode {
+
+    private void populateMerkleNode(MerkleNode oNode, MerkleNode oLeftNode, MerkleNode oRightNode){
+
+        oNode.oLeft = oLeftNode;
+        oNode.oRight = oRightNode;
+        oNode.sHash = generateHash(oNode.oLeft.sHash + oNode.oRight.sHash);
+    }
+}
